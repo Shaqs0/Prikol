@@ -6,83 +6,86 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
-    font-family: 'PT Sans', sans-serif;
+    height: 80vh; 
 }
 
 .container {
+    font-family: 'PT Sans', sans-serif;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 55%;
-    max-width: 250px; /* Adjust as needed */
-    height: auto;
-    margin-top: 5%;
-    border-radius: 15px;
-    padding: 5%;
+    width: 60%; 
+    max-width: 300px;
+    border-radius: 2%;
+    padding: 5%; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10% auto;
 }
 
 .head {
-    font-size: 24px;
+    font-size: 1.5rem; 
 }
 
 .form-input {
-    margin-bottom: 15px;
+    margin-bottom: 4%; 
 }
 
 .form-input label {
-    display: block;
-    font-size: 14px;
-    margin-bottom: 5px;
+    display: flex;
+    font-size: 1rem; 
+    margin-bottom: 2%;
     color: #E9E9E9;
 }
 
 .form-input input {
     width: 100%;
-    padding: 8px;
-    font-size: 16px;
+    height: 40px; 
+    padding: 8px; 
+    margin-top: 5%;
+    font-size: 1rem; 
     border: 1px solid #D3D3D3;
-    border-radius: 13px;
+    border-radius: 4%;
     box-sizing: border-box;
-}
-
-.form-input input:hover {
-    border: 2px solid #D3D3D3;
 }
 
 .login-form {
     width: 100%;
-    max-width: 400px;
+    max-width: 75%;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 3%;
 }
 
-#btn {
+.login-form #btn {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 8%;
 }
 
 #btn input {
-    width: 100%;
+    margin-top: 15%;
+    width: 70%; 
+    height: 40px; 
     background-color: #E9E9E9;
     color: black;
-    padding: 10px 15px;
+    padding: 2% 3%;
     border: none;
-    border-radius: 8px;
+    border-radius: 4%;
     cursor: pointer;
 }
 
-#btn input:hover {
-    background-color: #D3D3D3;
-}
-
-/* Media Queries for Responsive Design */
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .container {
         width: 90%;
+        margin: 10% auto;
+    }
+
+    .head {
+        font-size: 1rem; 
+    }
+
+    .form-input input,
+    #btn input {
+        margin-top: 3%;
     }
 }
-
