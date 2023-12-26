@@ -10,11 +10,20 @@ body {
 
 .horizontal-line {
   position: absolute;
-  margin-top: 3%;
+  margin-top: 3.5%;
   left: 0;
   right: 0;
-  height: 1vh;
+  height: 1.25vh;
+  width: auto;
   background-color: #E9E9E9
+}
+
+.icon {
+  margin-top: 0.2%;
+  position: absolute;
+  margin-left: 93.5%;
+  height: 100px;
+  width: auto;
 }
 
 
@@ -23,7 +32,7 @@ body {
   top: 0;
   left: 90%;
   width: 1vh;
-  height: 6vh;
+  height: 7vh;
   background-color: #E9E9E9;
 }
 
