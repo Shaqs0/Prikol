@@ -19,11 +19,9 @@ body {
 }
 
 .icon {
-  margin-top: 0.2%;
-  position: absolute;
+  height: 50%;
+  width: 50%;
   margin-left: 93.5%;
-  height: 100px;
-  width: auto;
 }
 
 
@@ -37,7 +35,7 @@ body {
 }
 
 .container {
-  padding: 20px;
+  padding: 4%;
 }
 
 .main {
