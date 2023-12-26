@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  position: relative;
+  width: 100%;
+}
+
+.horizontal-line {
+  position: absolute;
+  margin-top: 3%;
+  left: 0;
+  right: 0;
+  height: 1vh;
+  background-color: #E9E9E9
+}
+
+
+.vertical-line {
+  position: absolute;
+  top: 0;
+  left: 90%;
+  width: 1vh;
+  height: 6vh;
+  background-color: #E9E9E9;
+}
+
+.container {
+  padding: 20px;
+}
+
+.main {
+  text-align: center;
+}
