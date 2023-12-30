@@ -44,7 +44,7 @@ body {
 }
 
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1350px) and (max-height: 1000px) {
   .vertical-line {
     position: absolute;
     top: 0;
@@ -77,7 +77,7 @@ body {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 830px) {
   .vertical-line {
     position: absolute;
     top: 0;
@@ -99,6 +99,18 @@ body {
     left: 90%;
     width: 1vh;
     height: 4vh;
+    background-color: #E9E9E9;
+  }
+}
+
+
+@media screen and (max-width: 520px) {
+  .vertical-line {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    width: 1vh;
+    height: 3vh;
     background-color: #E9E9E9;
   }
 }
