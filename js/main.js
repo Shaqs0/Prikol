@@ -6,7 +6,6 @@ function clearCache() {
             });
         });
     }
-
 }
 
 clearCache();
